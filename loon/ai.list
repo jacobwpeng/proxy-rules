@@ -1,0 +1,117 @@
+# =========================================================
+# Loon RuleSet: AI_Sites.list
+# Policy: AI   (把 AI 改成你自己的策略/策略组名)
+# =========================================================
+
+# -------------------------
+# OpenAI / ChatGPT
+# -------------------------
+DOMAIN-SUFFIX,openai.com,AI
+DOMAIN-SUFFIX,chatgpt.com,AI
+DOMAIN-SUFFIX,oaiusercontent.com,AI
+DOMAIN-SUFFIX,oaistatic.com,AI
+DOMAIN,chat.openai.com,AI
+DOMAIN,auth0.openai.com,AI
+DOMAIN,ios.chat.openai.com,AI
+DOMAIN,android.chat.openai.com,AI
+DOMAIN,desktop.chat.openai.com,AI
+DOMAIN,chatgpt.livekit.cloud,AI
+
+# （可选）ChatGPT 常用第三方组件域名（不加也能用，但部分场景可能会影响登录/客服/统计）
+DOMAIN-SUFFIX,statsig.com,AI
+DOMAIN-SUFFIX,statsigapi.net,AI
+DOMAIN-SUFFIX,featuregates.org,AI
+DOMAIN-SUFFIX,intercomcdn.com,AI
+DOMAIN-SUFFIX,intercom.io,AI
+DOMAIN,js.stripe.com,AI
+DOMAIN,challenges.cloudflare.com,AI
+DOMAIN,rum.browser-intake-datadoghq.com,AI
+DOMAIN,o33249.ingest.sentry.io,AI
+DOMAIN,featureassets.org,AI
+DOMAIN,prodregistryv2.org,AI
+
+# -------------------------
+# Google Gemini / Gemini API / AI Studio
+# -------------------------
+DOMAIN,gemini.google.com,AI
+DOMAIN,aistudio.google.com,AI
+DOMAIN,ai.google.dev,AI
+DOMAIN,generativelanguage.googleapis.com,AI
+DOMAIN,aiplatform.googleapis.com,AI
+# 旧入口（可能仍会跳转）
+DOMAIN,bard.google.com,AI
+
+# -------------------------
+# Anthropic Claude
+# -------------------------
+DOMAIN-SUFFIX,claude.ai,AI
+DOMAIN-SUFFIX,claude.com,AI
+DOMAIN-SUFFIX,anthropic.com,AI
+DOMAIN,console.anthropic.com,AI
+DOMAIN,platform.claude.com,AI
+
+# -------------------------
+# Microsoft Copilot
+# -------------------------
+DOMAIN,copilot.microsoft.com,AI
+DOMAIN-SUFFIX,copilot.com,AI
+DOMAIN-SUFFIX,copilot.ai,AI
+# 谨慎：bing.com 太大（会影响所有 Bing），如你确实希望 Copilot(web) 也走 AI 再取消注释
+# DOMAIN-SUFFIX,bing.com,AI
+
+# -------------------------
+# Perplexity
+# -------------------------
+DOMAIN-SUFFIX,perplexity.ai,AI
+
+# -------------------------
+# xAI Grok
+# -------------------------
+DOMAIN-SUFFIX,x.ai,AI
+DOMAIN-SUFFIX,grok.com,AI
+
+# -------------------------
+# Mistral (Le Chat)
+# -------------------------
+DOMAIN-SUFFIX,mistral.ai,AI
+DOMAIN,chat.mistral.ai,AI
+DOMAIN-SUFFIX,mistralcdn.net,AI
+
+# -------------------------
+# DeepSeek
+# -------------------------
+DOMAIN,chat.deepseek.com,AI
+
+# -------------------------
+# OpenRouter（模型聚合）
+# -------------------------
+DOMAIN-SUFFIX,openrouter.ai,AI
+
+# -------------------------
+# Poe / Character.AI（聚合/角色对话）
+# -------------------------
+DOMAIN-SUFFIX,poe.com,AI
+DOMAIN-SUFFIX,character.ai,AI
+
+# -------------------------
+# Hugging Face（模型/Spaces）
+# -------------------------
+DOMAIN-SUFFIX,huggingface.co,AI
+DOMAIN-SUFFIX,hf.space,AI
+
+# -------------------------
+# 创作类 AI（图像/视频）
+# -------------------------
+DOMAIN-SUFFIX,midjourney.com,AI
+DOMAIN-SUFFIX,runwayml.com,AI
+DOMAIN-SUFFIX,app.runwayml.com,AI
+DOMAIN-SUFFIX,replicate.com,AI
+DOMAIN-SUFFIX,dreamstudio.stability.ai,AI
+
+# -------------------------
+# Cohere / Groq（开发者常用）
+# -------------------------
+DOMAIN-SUFFIX,cohere.com,AI
+DOMAIN-SUFFIX,groq.com,AI
+DOMAIN,console.groq.com,AI
+
